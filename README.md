@@ -1,12 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌍 NGO Website
 
-Currently, two official plugins are available:
+A responsive and modern NGO website built using React.js and Tailwind CSS to showcase our mission, work, and ways for people to get involved.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📖 Project Overview
 
-## Expanding the ESLint configuration
+This website is designed to help our NGO share its vision, connect with volunteers, and encourage public participation. It includes essential sections like Home, About Us, and a Volunteer Form for interested individuals to join our cause.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+
+Home – Brief introduction to the NGO and its mission.
+
+About Us – Detailed information about our purpose and goals.
+
+Volunteer Form – A form for people to sign up as volunteers.
+
+Responsive Design – Works on desktop, tablet, and mobile.
+
+Modern UI – Built with Tailwind CSS for a clean and attractive interface.
+
+
+🛠️ Tech Stack
+
+Frontend: React.js
+
+Styling: Tailwind CSS
+
+Routing: React Router
+
+
+📂 Project Structure
+
+src/
+│-- components/    # Reusable UI components
+│-- pages/         # Home, About Us, Volunteer Form
+│-- App.js         # Main app file with routing
+│-- index.js       # Entry point
+│-- styles.css     # Tailwind setup
